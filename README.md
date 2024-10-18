@@ -36,6 +36,7 @@
 # IV. Charts and Insights
 **1. Smoking vs. Medical Charges**
 Smokers pay way more. The box plot shows smokers have much higher charges than non-smokers. Recommendation: charge smokers more.
+![image](https://github.com/user-attachments/assets/400166d9-384b-4f84-80c3-cfa311181709)
 
 **2. BMI Categories vs. Medical Charges**
 People were grouped by BMI: underweight, normal, overweight, obese. The box plot shows obese people face higher charges. This means BMI is a good factor for predicting high costs.
