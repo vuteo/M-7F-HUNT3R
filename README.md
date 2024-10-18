@@ -43,6 +43,8 @@ People were grouped by BMI: underweight, normal, overweight, obese. The box plot
 **3. Age vs. Medical Charges**
 Charges increase with age, especially after 50. The scatter plot shows this clearly. Older people are more likely to need higher-cost insurance.
 These charts directly show who has higher costs—smokers, older people, and those with higher BMI. This means insurance companies should adjust premiums accordingly.
+![image](https://github.com/user-attachments/assets/85e7baca-e438-43b9-a7f9-5ddc387d20c5)
+
 
 # V. Conclusion
 Smoking, age, and BMI are the main factors driving medical costs. Smokers, older people, and those with high BMI should be charged higher premiums based on their risk. No fluff—just straight insights and recommendations.
