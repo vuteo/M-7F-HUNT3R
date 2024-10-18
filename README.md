@@ -1,2 +1,2 @@
 # Medical Cost
-$${\color{red}Lmao}$$
+@@#f03c15 text
