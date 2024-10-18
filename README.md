@@ -3,7 +3,7 @@
     Group 6 mini Presentation
   </head>
   <body>
-    <h2  style = "color: red;">My First Heading</h2>
+    <span style="color: green"> Some green text </span>
   </body>
 </html>
 
