@@ -39,6 +39,7 @@ Smokers pay way more. The box plot shows smokers have much higher charges than n
 
 **2. BMI Categories vs. Medical Charges**
 People were grouped by BMI: underweight, normal, overweight, obese. The box plot shows obese people face higher charges. This means BMI is a good factor for predicting high costs.
+![image](https://github.com/user-attachments/assets/ec0abee4-7214-4d00-b007-54f89cced786)
 
 **3. Age vs. Medical Charges**
 Charges increase with age, especially after 50. The scatter plot shows this clearly. Older people are more likely to need higher-cost insurance.
