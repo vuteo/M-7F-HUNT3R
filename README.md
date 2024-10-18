@@ -54,5 +54,12 @@ Key factors affecting charges:
 - **Age**: Older individuals, especially those over 50, face higher costs.
 - **BMI**: People with higher BMI, particularly those classified as obese, also have higher medical costs.
 We evaluated the model using Mean Squared Error (MSE) and R² score. The R² score of 0.74 indicates that 74% of the variation in medical costs can be explained by the model’s features.
+# VII. Data Visualization
+We used several visualizations to present the results clearly:
+- **Correlation Heatmap**: Displays how numerical variables relate to charges.
+- **Scatter Plot (Age vs. Charges)**: Shows how costs increase with age, especially for smokers.
+- **Bar Plot (Smoking vs. Charges)**: Highlights the clear difference in costs between smokers and non-smokers.
+- **Scatter Plot (BMI vs. Charges)**: Shows that higher BMI leads to higher costs, especially for smokers.
+- **Box Plot (Charges by BMI Category)**: Reveals that obese individuals have significantly higher medical costs.
 
 
