@@ -1,3 +1,3 @@
-# medical cost
+# Medical Cost
 
 
