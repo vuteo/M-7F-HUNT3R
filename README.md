@@ -1,5 +1,2 @@
 
-
-```diff
--lolololololololo
-```
+$${\color{red}Red}$$
