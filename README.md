@@ -1,3 +1,34 @@
-Hello, gays
-Hello! And welcome to the Los Pollos Hermanos family. My name is Gustavo, but you can call me "Gus". I am thrilled that you'll be joining our team. Each and every day, we serve our customers exceptional food, with impecable service. We take pride in everything that we do. And after this 10 week online seminar, I'm sure you'll fit right in. I like to think I see things in people. To begin, I'd like to talk about the cornerstone of the Los Pollos Hermanos brand. Communication. As an employee of Los Pollos Hermanos, you set the tone for the entire dining experience. Be mindful of what your words, and behavior communicate to our guests. Always be aware of your posture, remember to stand up straight. Your customers and your back will thank you for it. Put effort into your appearance, all employees are required to dress appropriately. Keep your uniform clean, and pressed. If you want respect, you must look respectable. Speak in complete sentences, we never use one word greetings like "Hey" or "Yeah?" Always make eye contact, and finally, whenever you're with a customer or not, remain composed. Inside, you can be thinking about your homework, or friends, or your side business, but no one should ever know it. Because at Los Pollos Hermanos, someone... Is always watching. So dont forget to smile! Thats all for today, see you next time when we'll be discussing cleanliness.
-![](Y2meta.app-Los Pollos Hermanos Employee Training_ Communication _ Better Call Saul.mp4)
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+url = 'https://raw.githubusercontent.com/hoangkazari/minipresentation/main/insurance.csv'
+df = pd.read_csv(url)
+df.head()
+
+sns.scatterplot(x='bmi', y='charges', hue='smoker', data=df)
+plt.title('BMI vs. Charges')
+plt.xlabel('BMI')
+plt.ylabel('Charges')
+plt.show()
+
+sns.boxplot(x='smoker', y='charges', data=df)
+plt.title('Charges Distribution by Smoking Status')
+plt.xlabel('Smoking Status')
+plt.ylabel('Charges')
+plt.show()
+
+sns.lmplot(x='age', y='charges', hue='smoker', data=df)
+plt.title('Charges vs. Age by Smoking Status')
+plt.xlabel('Age')
+plt.ylabel('Charges')
+plt.show()
+
+smoker_counts = df.groupby(['region', 'smoker']).size().reset_index(name='count')
+sns.set(style="whitegrid")
+plt.figure(figsize=(12, 6))
+sns.barplot(x='region', y='count', hue='smoker', data=smoker_counts)
+plt.title('Number of Smokers and Non-Smokers in Each Region')
+plt.xlabel('Region')
+plt.ylabel('Count')
+plt.legend(title='Smoker Status')
