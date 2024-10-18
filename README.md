@@ -1,2 +1,2 @@
 
-$${\color{red}Red}$$
+$${\color{red}Lmao}$$
