@@ -19,3 +19,18 @@ The goal of this project is to analyze the dataset to find important patterns an
 
 - This data can be instrumental for analyzing sales performance, understanding customer preferences, and making informed business decisions.
 
+# 2. Data Mining 
+- This dataset is sourced from Medical Cost Personal.
+- The dataset has 1,338 individuals, including:
+- Age
+- Sex (male or female)
+- BMI (Body Mass Index)
+- Children (number of dependents)
+- Smoker (yes or no)
+- Region (northeast, northwest, southeast, southwest)
+- Charges (total medical charges, target variable for prediction)
+- This data helps understand medical cost patterns and predict future charges.
+# 3. Data Cleaning
+
+- The data is already cleaned
+
