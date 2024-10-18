@@ -37,7 +37,7 @@ The goal of this project is to analyze the dataset to find important patterns an
 
 # 4. Data Exploration
   Exploratory Data Analysis (EDA) helps us understand the data. The main points from EDA are:
-- Smoking and Medical Charges: There is a strong link between smoking and medical costs. Smokers usually pay much higher medical bills.
+- **Smoking and Medical Charges**: There is a strong link between smoking and medical costs. Smokers usually pay much higher medical bills.
 - Age and Charges: Medical costs rise with age, especially for people over 50. This shows that older people often face higher medical expenses.
 - BMI and Charges: People with a higher BMI (who are overweight or obese) have higher medical costs. Obesity is a big reason for these higher charges.
 - Region Differences: Medical costs are different in each region. People living in the southeast region usually have to pay more.
