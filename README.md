@@ -38,20 +38,20 @@ The goal of this project is to analyze the dataset to find important patterns an
 # 4. Data Exploration
   Exploratory Data Analysis (EDA) helps us understand the data. The main points from EDA are:
 - **Smoking and Medical Charges**: There is a strong link between smoking and medical costs. Smokers usually pay much higher medical bills.
-- Age and Charges: Medical costs rise with age, especially for people over 50. This shows that older people often face higher medical expenses.
-- BMI and Charges: People with a higher BMI (who are overweight or obese) have higher medical costs. Obesity is a big reason for these higher charges.
-- Region Differences: Medical costs are different in each region. People living in the southeast region usually have to pay more.
+- **Age and Charges**: Medical costs rise with age, especially for people over 50. This shows that older people often face higher medical expenses.
+- **BMI and Charges**: People with a higher BMI (who are overweight or obese) have higher medical costs. Obesity is a big reason for these higher charges.
+- **Region Differences**: Medical costs are different in each region. People living in the southeast region usually have to pay more.
 # 5. Feature Engineering
 In this step, we created new features and chose the most important variables to boost model accuracy:
-- BMI Category: We added a new feature that categorizes individuals as underweight, normal, overweight, or obese to better understand how BMI affects charges.
-- Interaction Terms: We looked into interactions between key variables, like smoker status and BMI, to capture their combined effect on medical costs.
+- **BMI Category**: We added a new feature that categorizes individuals as underweight, normal, overweight, or obese to better understand how BMI affects charges.
+- **Interaction Terms**: We looked into interactions between key variables, like smoker status and BMI, to capture their combined effect on medical costs.
 These new features helped improve the model’s predictions and provided more accurate results.
 # 6. Predictive Modeling
 We used a linear regression model to predict medical charges based on factors like age, BMI, smoking status, and region. Linear regression was chosen because it’s easy to interpret, allowing us to see how each feature impacts medical costs.
 Key factors affecting charges:
-- Smoking status: Smokers have much higher charges than non-smokers.
-- Age: Older individuals, especially those over 50, face higher costs.
-- BMI: People with higher BMI, particularly those classified as obese, also have higher medical costs.
+- **Smoking status**: Smokers have much higher charges than non-smokers.
+- **Age**: Older individuals, especially those over 50, face higher costs.
+- **BMI**: People with higher BMI, particularly those classified as obese, also have higher medical costs.
 We evaluated the model using Mean Squared Error (MSE) and R² score. The R² score of 0.74 indicates that 74% of the variation in medical costs can be explained by the model’s features.
 
 
