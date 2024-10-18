@@ -31,6 +31,7 @@ The goal of this project is to analyze the dataset to find important patterns an
 - Charges (total medical charges, target variable for prediction)
 - This data helps understand medical cost patterns and predict future charges.
 # 3. Data Cleaning
+![image](https://github.com/user-attachments/assets/8380c6ab-24e9-4a27-84cd-77063058214b)
 
 - The data is already cleaned
 
