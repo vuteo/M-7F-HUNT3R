@@ -1,3 +1,9 @@
-# Medical Cost
-YEAH MAN THIS IS MY KINGDOM CUMMMMMMMMMMMMMMMmm
+<html>
+  <head>
+    <title>Group 6 mini Presentation</title>
+  </head>
+  <body>
+    
+  </body>
+</html>
 
