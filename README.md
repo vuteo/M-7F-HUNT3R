@@ -8,7 +8,8 @@
 
 # Team Member 
 
-![image](https://github.com/user-attachments/assets/2168e09d-03b2-4c1d-a6d0-ebc390930c97)
+![image](https://github.com/user-attachments/assets/b74ef97e-0826-4a53-94c5-641db8353f3e)
+
 
 
 # I. Introduction
