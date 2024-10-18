@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Group 6 mini Presentation</title>
+    Group 6 mini Presentation
   </head>
   <body>
     
